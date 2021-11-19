@@ -7,7 +7,7 @@ node.name <- Sys.info()[[4]]
 if (node.name == "Cedre-24"){
   setwd(dir = '/home/chris/CeDRE/RWR-MH/Scripts_and_Files/Network_Generation/')
 } else if (node.name == "cedre-14a"){
-  setwd(dir = '/Projects_Space/People/Christophe//RWR-MH/Scripts_and_Files/Network_Generation/')
+  setwd(dir = '/home/heligon/RWR-MH/Scripts_and_Files/Network_Generation/')
 }
 
 ################################################################################################################

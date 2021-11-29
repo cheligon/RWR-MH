@@ -53,4 +53,4 @@ print(paste("Number of Edges: ", ecount(net),sep="",collapse = NULL))
 print(paste("Number of Nodes: ", vcount(net),sep="", collapse = NULL))
 graph_name <- paste("networks_files/Co-Expression_",date,".gr",sep="",collapse = "")
 
-write.graph(net, graph_name, format=c("ncol"),  weights=NULL)
+write.graph(net, graph_name, format=c("ncol"), 'weights')

@@ -2,11 +2,12 @@
 ## 0.- Prepare environment
 ################################################################################################################
 
-## Delete objects and variables
+## Delete objects and variables & free memory
 rm(list=ls())
-
-## Free memory
 gc()
+
+## Load libraries
+library(igraph)
 
 ## Set work dir depending on computer (= node) used
 node.name <- Sys.info()[[4]]

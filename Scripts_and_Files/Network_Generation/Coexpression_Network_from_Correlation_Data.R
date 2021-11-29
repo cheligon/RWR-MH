@@ -30,7 +30,7 @@ if (!file.exists(data.dir)) {
 ################################################################################################################
 ## 1.- Load Correlation Data
 ################################################################################################################
-matrix_file <- './network_files_human_2021-11-22/Correlation_matrix_2021-11-22.RData'
+matrix_file <- './networks_files_human_2021-11-22/Correlation_matrix_2021-11-22.RData'
 
 load(file = matrix_file) # CR
 
